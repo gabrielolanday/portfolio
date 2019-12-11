@@ -99,7 +99,7 @@ section#stream {
 .modelcontainer{
   display: grid;
   padding: 20px;
-  width: 60%;
+  width: 80%;
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
@@ -109,6 +109,9 @@ section#stream {
 
 .mainmodelcontainer{
   display: grid;
+
+  justify-items: center;
+  align-items: center;
   grid-row-gap: 10px;
 }
 
