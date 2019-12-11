@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Montserrat';
+  background-repeat: no-repeat;
   background-image: linear-gradient(to right, hotpink, skyblue);
   color: #fff;
   height: 100vh;
@@ -28,8 +29,8 @@ nav{
   display: flex;
   flex-direction: column;
   list-style: none;
-  height: 100%;
-  justify-content: space-around;
+  height: 10vh;
+  justify-content: space-between;
   align-items: flex-start;
   margin-left: 1%;
   margin-top: 1%;
@@ -80,7 +81,8 @@ section#stream {
   }
 
   section#about{
-    height: auto;
+    height: 100vh;
+    padding-bottom: 0px;
   }
 
 .sectioncontainer{
@@ -91,13 +93,13 @@ section#stream {
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 80px;
-  grid-column-gap: 80px;
+  grid-column-gap: 60px;
 }
 
 .modelcontainer{
   display: grid;
   padding: 20px;
-  width: 80%;
+  width: 60%;
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
@@ -111,18 +113,22 @@ section#stream {
 }
 
 .aboutcontainer{
-  height: 60vh;
+  height: 90vh;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-items: start;
   padding: 40px;
+  padding-bottom: 0px;
 }
 #footer {
   bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+  width: 60vw;
   font-size: 0.8rem;
   opacity: 80%;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px){
 }

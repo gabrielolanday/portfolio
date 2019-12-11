@@ -1,0 +1,18 @@
+
+brand identity - lowercase, periods, be consistent
+*probably lowercase in the titles only
+
+HOME
+- alternating alignment might feel like more of an alignment issue than a stylistic choice
+
+NAVBAR
+- space between
+- indicator for where u are in the site
+- put nav tag at the bottom of html so it clips OVER the other content
+
+ABOUT
+- lowercase, just "gabriel." like on the title (maybe "gabriel olanday." ?)
+- shrink the div, make the text not take the whole page
+
+responsive layout LOLOLOL we gon see if i can finesse this one
+

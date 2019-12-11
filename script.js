@@ -13,7 +13,6 @@ ScrollReveal().reveal('.modelcontainer p', {delay: 200});
 
 
 ScrollReveal().reveal('#mograf h1');
-ScrollReveal().reveal('#mograf p', {delay: 200});
 ScrollReveal().reveal('#mograf iframe', {delay: 200});
 
 
